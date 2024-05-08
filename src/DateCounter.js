@@ -15,20 +15,16 @@ function DateCounter() {
 
   const [step, setStep] = useState(1);
 
-  /// This mutates the date object.
+  /// This mutates the date object
   const date = new Date("june 21 2027");
   date.setDate(date.getDate() + count);
 
   const dec = function () {
     dispatch({ type: "dec" }); ///payload property is optional
-    // setCount((count) => count - 1);
-    // setCount((count) => count - step);
   };
 
   const inc = function () {
     dispatch({ type: "inc" });
-    // setCount((count) => count + 1);
-    // setCount((count) => count + step);
   };
 
   const defineCount = function (e) {
