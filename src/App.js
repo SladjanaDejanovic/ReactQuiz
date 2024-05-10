@@ -41,7 +41,7 @@ export default function App() {
     <div className="app">
       <Header />
       <Main>
-        <p>1/15</p>
+        <p>2/15</p>
         <p>Question?</p>
       </Main>
     </div>
